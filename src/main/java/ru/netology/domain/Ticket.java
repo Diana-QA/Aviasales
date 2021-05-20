@@ -33,6 +33,10 @@ public class Ticket implements Comparable<Ticket> {
         return to;
     }
 
+    public int getTime() {
+        return time;
+    }
+
     @Override
     public int compareTo(Ticket p) {
         return price - p.price;
